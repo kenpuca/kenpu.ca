@@ -17,6 +17,8 @@ We study artificial intelligence & workflow automation
 
 # Research Statement
 
+::: {.grid}
+:::: {.g-col-md-6 .g-col-sm-12}
 ## Fundamental AI research
 
 We aim to advance the foundations of data science, machine learning, and agentic AI.
@@ -24,26 +26,53 @@ We aim to advance the foundations of data science, machine learning, and agentic
 - mathematical models of neural network dynamics
 - meta-learning methods for ensemble learning
 - integration of AI with classical computer science
+::::
 
+:::: {.g-col-md-6 .g-col-sm-12}
 ## Novel applications of AI
 
 Our research focuses on discovering and implementing novel applications of AI technology, particularly in workflow automation. We aim to enhance efficiency, reduce costs, and improve accuracy in various business processes.
+::::
 
+:::: {.g-col-md-6 .g-col-sm-12}
 ## Open Source Benchmarks
 
 We are committed to providing the research community with open source benchmarks to evaluate AI models and technologies. These benchmarks are crucial for ensuring transparency, reproducibility, and progress in the field of AI research.
+::::
 
-## AI Readiness report for industry sectors
+:::: {.g-col-md-6 .g-col-sm-12}
+## AI readiness report for industry sectors
 
 We assess AI readiness across various industry sectors, identifying opportunities and challenges. Our reports offer insights into the practical implementation of AI technologies and their impact on industry operations.
+::::
+:::
 
 # Members
 
 ::: {.member}
 ![](static/images/kenpu.png)
 
-:::: {.text}
+:::: {}
 **Ken Pu** is an associate professor in Computer Science at Ontario Tech University.  He has been actively working in the intersection of
 database systems, text and natural language processing, machine learning and artificial intelligence.  He received his PhD in Computer Science from University of Toronto in 2006.
 ::::
+:::
+
+::: {.member}
+:::: {}
+**Limin Ma** is working on AI agents and agentic workflows involving multimodal and custom LLMs.
+He obtained his Masters in Computer Science from Ontario Tech University where he worked on embedded neural networks for keyword query optimization.
+::::
+:::
+
+::: {.member}
+:::: {}
+**Zikun Fu** is working on instruction tuned embedding models for semantic retrieval applications.  He is currently working on benchmarks for instruction based embedding models.  Zikun is currently working on his master's degree.
+::::
+:::
+
+# Projects
+
+::: {style="color:salmon"}
+Project descriptions are coming soon.
 :::

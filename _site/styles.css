@@ -39,7 +39,6 @@ body {
 }
 section > h1 {
     font-size: 1.7em;
-    margin-top: 0;
     border-bottom: 1px solid #e5e5e5;
 }
 h2.anchored {
