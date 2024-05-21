@@ -1,0 +1,21 @@
+project:
+  type: website
+  resources: static
+
+website:
+  title: "kenpu.ca"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - publications.ipynb
+  body-footer: "
+  <div class=footer>AI Automation Group, 2024 ©</div>
+  "
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

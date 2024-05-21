@@ -1,0 +1,49 @@
+---
+---
+
+::: {
+    .jumbotron
+}
+
+:::: {style="width:250px"}
+![](static/images/logo.png){width=100%}
+::::
+
+:::: {style="text-align:right"}
+We study artificial intelligence & workflow automation
+::::
+
+:::
+
+# Research Statement
+
+## Fundamental AI research
+
+We aim to advance the foundations of data science, machine learning, and agentic AI.
+
+- mathematical models of neural network dynamics
+- meta-learning methods for ensemble learning
+- integration of AI with classical computer science
+
+## Novel applications of AI
+
+Our research focuses on discovering and implementing novel applications of AI technology, particularly in workflow automation. We aim to enhance efficiency, reduce costs, and improve accuracy in various business processes.
+
+## Open Source Benchmarks
+
+We are committed to providing the research community with open source benchmarks to evaluate AI models and technologies. These benchmarks are crucial for ensuring transparency, reproducibility, and progress in the field of AI research.
+
+## AI Readiness report for industry sectors
+
+We assess AI readiness across various industry sectors, identifying opportunities and challenges. Our reports offer insights into the practical implementation of AI technologies and their impact on industry operations.
+
+# Members
+
+::: {.member}
+![](static/images/kenpu.png)
+
+:::: {.text}
+**Ken Pu** is an associate professor in Computer Science at Ontario Tech University.  He has been actively working in the intersection of
+database systems, text and natural language processing, machine learning and artificial intelligence.  He received his PhD in Computer Science from University of Toronto in 2006.
+::::
+:::
