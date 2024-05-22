@@ -45,14 +45,17 @@ h2.anchored {
     font-size: 1.3em;
     text-decoration: none;
     border: none;
+    margin-top: 10px;
 }
 
 .member {
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
 .member img {
-    width: 200px;
+    min-width: 100px;
+    max-width: 100px;
     border-radius: 50%;
 }
 .member > div {

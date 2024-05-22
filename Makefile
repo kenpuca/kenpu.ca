@@ -2,7 +2,7 @@
 
 
 preview:
-	quarto preview --port 3000
+	quarto preview
 
 deploy:
 	quarto render

@@ -35,7 +35,7 @@ Our research focuses on discovering and implementing novel applications of AI te
 ::::
 
 :::: {.g-col-md-6 .g-col-12}
-## Open Source Benchmarks
+## Open-source benchmarks
 
 We are committed to providing the research community with open source benchmarks to evaluate AI models and technologies. These benchmarks are crucial for ensuring transparency, reproducibility, and progress in the field of AI research.
 ::::
@@ -59,6 +59,7 @@ database systems, text and natural language processing, machine learning and art
 :::
 
 ::: {.member}
+<div style="min-width:100px; height:100px; background:#eee; margin:0"></div>
 :::: {}
 **Limin Ma** is working on AI agents and agentic workflows involving multimodal and custom LLMs.
 He obtained his Masters in Computer Science from Ontario Tech University where he worked on embedded neural networks for keyword query optimization.
@@ -66,6 +67,8 @@ He obtained his Masters in Computer Science from Ontario Tech University where h
 :::
 
 ::: {.member}
+![](static/images/zikun_fu.jpg)
+
 :::: {}
 **Zikun Fu** is working on instruction tuned embedding models for semantic retrieval applications.  He is currently working on benchmarks for instruction based embedding models.  Zikun is currently working on his master's degree.
 ::::
