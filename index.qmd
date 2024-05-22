@@ -18,7 +18,7 @@ We study artificial intelligence & workflow automation
 # Research Statement
 
 ::: {.grid}
-:::: {.g-col-md-6 .g-col-sm-12}
+:::: {.g-col-md-6 .g-col-12}
 ## Fundamental AI research
 
 We aim to advance the foundations of data science, machine learning, and agentic AI.
@@ -28,19 +28,19 @@ We aim to advance the foundations of data science, machine learning, and agentic
 - integration of AI with classical computer science
 ::::
 
-:::: {.g-col-md-6 .g-col-xs-12}
+:::: {.g-col-md-6 .g-col-12}
 ## Novel applications of AI
 
 Our research focuses on discovering and implementing novel applications of AI technology, particularly in workflow automation. We aim to enhance efficiency, reduce costs, and improve accuracy in various business processes.
 ::::
 
-:::: {.g-col-md-6 .g-col-xs-12}
+:::: {.g-col-md-6 .g-col-12}
 ## Open Source Benchmarks
 
 We are committed to providing the research community with open source benchmarks to evaluate AI models and technologies. These benchmarks are crucial for ensuring transparency, reproducibility, and progress in the field of AI research.
 ::::
 
-:::: {.g-col-md-6 .g-col-xs-12}
+:::: {.g-col-md-6 .g-col-12}
 ## AI readiness report for industry sectors
 
 We assess AI readiness across various industry sectors, identifying opportunities and challenges. Our reports offer insights into the practical implementation of AI technologies and their impact on industry operations.
