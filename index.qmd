@@ -59,7 +59,7 @@ database systems, text and natural language processing, machine learning and art
 :::
 
 ::: {.member}
-<div style="min-width:100px; height:100px; background:#eee; margin:0"></div>
+<div style="min-width:100px; height:100px; background:#eee; border-radius: 50%; margin:0"></div>
 :::: {}
 **Limin Ma** is working on AI agents and agentic workflows involving multimodal and custom LLMs.
 He obtained his Masters in Computer Science from Ontario Tech University where he worked on embedded neural networks for keyword query optimization.
@@ -78,7 +78,7 @@ He obtained his Masters in Computer Science from Ontario Tech University where h
 ![](static/images/chen_yang.jpg)
 
 :::: {}
-**Chen Yang** is a visiting researcher for the duration of Summer 2024. Our collaboration is on studying the embedding models with instructions: their evaluation and optimization.  Chen is completing his master's degree from Northeasstern University.
+**Chen Yang** is a visiting researcher for the duration of Summer 2024. We are studying text embedding models with instructions: their evaluation and optimization.  Chen is completing his master's degree from Northeasstern University.
 ::::
 :::
 
