@@ -74,6 +74,15 @@ He obtained his Masters in Computer Science from Ontario Tech University where h
 ::::
 :::
 
+::: {.member}
+![](static/images/chen_yang.jpg)
+
+:::: {}
+**Chen Yang** is a visiting researcher for the duration of Summer 2024. Our collaboration is on studying the embedding models with instructions: their evaluation and optimization.  Chen is completing his master's degree from Northeasstern University.
+::::
+:::
+
+
 # Projects
 
 ::: {style="color:salmon"}
