@@ -11,10 +11,6 @@ website:
       - publications.ipynb
       - href: articles/index.qmd
         text: Articles
-  body-footer: "
-  <div class=footer>AI Automation Group, 2024 ©</div>
-  "
-
 
 format:
   html:
