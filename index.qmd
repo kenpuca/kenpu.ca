@@ -7,7 +7,11 @@ listing:
   filter-ui: false
   contents:
   - "articles/*.ipynb"
-  - "articles/*.qmd"
+- id: projects
+  type: table
+  sort-ui: false
+  filter-ui: false
+  contents: "projects/*.qmd"
 ---
 
 ::: {
@@ -58,30 +62,13 @@ We assess AI readiness across various industry sectors, identifying opportunitie
 
 
 
-# Blogs {#blogs}
+# Articles {#blogs}
 
 ::: {#articles}
 :::
 
 
-# Projects
+# Projects {#projects}
 
-::: {.grid}
-:::: {.g-col-12 .g-col-md-6}
-_Relational Data Management Using Vector Space Approach_
-
-We are investigating various learning based approaches to a range of
-database problems in the intersection of database Management and natural language processing.
-By leveraging large language models [@minaee2024largelanguagemodelssurvey] 
-and tabular embedding methods [@singh2023embeddingstabulardatasurvey], we are working
-on new information retrieval techniques.
-::::
-
-:::: {.g-col-12 .g-col-md-6}
-_AI Applications Development Frameworks_
-
-AI has created new opportunities in application design.  However, effective AI application development comes with many interesting challenges.  Despite numerous libraires [@llamaindex],[@langchain], [@khattab2023dspycompilingdeclarativelanguage] there are many unsolved issues and confusions faced by developers.  We are exploring the design space for the next generation of AI application development framework by combining time proven practices in Web application, and server development experiences of the last several decades.
-::::
+::: {#projects}
 :::
-
-### References

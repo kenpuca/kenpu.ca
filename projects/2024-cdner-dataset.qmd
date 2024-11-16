@@ -1,0 +1,22 @@
+---
+title: Closed-domain NER Dataset
+order: 1
+author: 
+  - Zikun Fu
+  - Nick Yang
+  - Ken Pu
+date: November 16, 2024
+---
+
+# Introduction
+
+Named Entity Recognition (NER) is a core problem in natural language processing that involves identifying and categorizing entities within a text into predefined types, such as persons, organizations, locations, etc. The challenge with NER lies in its open-world nature, where each entity type is assumed to have an unconstrained domain, meaning there is no reliance on pre-existing domain knowledge for these entities. This makes the task complex, as the model must generalize to entities it has never encountered before, without any specific constraints regarding the entities' characteristics or context. The fixed number of entity types provides structure to the problem, but the open-world assumption significantly increases the difficulty of accurately identifying and classifying diverse and novel entities as they appear in real-world texts.
+
+Closed-Domain NER Challenge:
+In this research, we assume a closed domain scenario, where each entity type is associated with a database that provides all possible values of the entity. This changes the nature of the NER problem, as the model now has access to a comprehensive list of potential entities for each type, allowing it to leverage this additional information for more accurate tagging. The key research challenge lies in designing an NER tagger that effectively incorporates this closed-domain constraint. Unlike open-domain systems that must rely on statistical patterns and contextual cues alone, the closed-domain approach requires the integration of explicit entity databases, which brings its own set of complexities. The research question centers on how to best combine traditional sequence labeling methods with database lookups, ensuring that the model benefits from the completeness of the closed domain without compromising flexibility or performance.
+
+# CD-NER Dataset
+
+Dataset Creation for Closed-Domain NER (CD-NER):
+To evaluate potential solutions for the closed-domain NER (CD-NER) problem, it is essential to create a dedicated dataset that reflects the characteristics of a closed domain. This dataset should include texts that feature entities drawn from a well-defined set of types, each with an exhaustive list of possible values provided by associated databases. The dataset must be curated to represent the range of variability within the domain, capturing different contexts in which the entities may appear, while ensuring that all entities are drawn from the closed set. Additionally, the dataset should be split into training, validation, and test sets, with careful attention given to ensuring that no unseen entities appear during testing, which aligns with the closed-domain assumption. Such a dataset will serve as a benchmark to evaluate the effectiveness of CD-NER models in leveraging pre-existing entity databases for improved recognition and categorization accuracy.
+
