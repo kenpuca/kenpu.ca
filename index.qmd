@@ -1,4 +1,5 @@
 ---
+bibliography: references.bib
 ---
 
 ::: {
@@ -85,6 +86,22 @@ He obtained his Masters in Computer Science from Ontario Tech University where h
 
 # Projects
 
-::: {style="color:salmon"}
-Project descriptions are coming soon.
+::: {.grid}
+:::: {.g-col-12 .g-col-md-6}
+_Relational Data Management Using Vector Space Approach_
+
+We are investigating various learning based approaches to a range of
+database problems in the intersection of database Management and natural language processing.
+By leveraging large language models [@minaee2024largelanguagemodelssurvey] 
+and tabular embedding methods [@singh2023embeddingstabulardatasurvey], we are working
+on new information retrieval techniques.
+::::
+
+:::: {.g-col-12 .g-col-md-6}
+_AI Applications Development Frameworks_
+
+AI has created new opportunities in application design.  However, effective AI application development comes with many interesting challenges.  Despite numerous libraires [@llamaindex],[@langchain], [@khattab2023dspycompilingdeclarativelanguage] there are many unsolved issues and confusions faced by developers.  We are exploring the design space for the next generation of AI application development framework by combining time proven practices in Web application, and server development experiences of the last several decades.
+::::
 :::
+
+### References
