@@ -1,0 +1,15 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/articles/index.html",
+      "/articles/constraint-modeling.html"
+    ]
+  },
+  {
+    "listing": "/articles/index.html",
+    "items": [
+      "/articles/constraint-modeling.html"
+    ]
+  }
+]

@@ -1,5 +1,13 @@
 ---
 bibliography: references.bib
+listing:
+- id: articles
+  type: table
+  sort-ui: false
+  filter-ui: false
+  contents:
+  - "articles/*.ipynb"
+  - "articles/*.qmd"
 ---
 
 ::: {
@@ -42,45 +50,17 @@ We are committed to providing the research community with open source benchmarks
 ::::
 
 :::: {.g-col-md-6 .g-col-12}
-## AI readiness report for industry sectors
+## AI readiness report
 
 We assess AI readiness across various industry sectors, identifying opportunities and challenges. Our reports offer insights into the practical implementation of AI technologies and their impact on industry operations.
 ::::
 :::
 
-# Members
 
-::: {.member}
-![](static/images/kenpu.png)
 
-:::: {}
-**Ken Pu** is an associate professor in Computer Science at Ontario Tech University.  He has been actively working in the intersection of
-database systems, text and natural language processing, machine learning and artificial intelligence.  He received his PhD in Computer Science from University of Toronto in 2006.
-::::
-:::
+# Blogs {#blogs}
 
-::: {.member}
-<div style="min-width:100px; height:100px; background:#eee; border-radius: 50%; margin:0"></div>
-:::: {}
-**Limin Ma** is working on AI agents and agentic workflows involving multimodal and custom LLMs.
-He obtained his Masters in Computer Science from Ontario Tech University where he worked on embedded neural networks for keyword query optimization.
-::::
-:::
-
-::: {.member}
-![](static/images/zikun_fu.jpg)
-
-:::: {}
-**Zikun Fu** is working on instruction tuned embedding models for semantic retrieval applications.  He is currently working on benchmarks for instruction based embedding models.  Zikun is currently working on his master's degree.
-::::
-:::
-
-::: {.member}
-![](static/images/chen_yang.jpg)
-
-:::: {}
-**Chen Yang** is a visiting researcher for the duration of Summer 2024. We are studying text embedding models with instructions: their evaluation and optimization.  Chen is completing his master's degree from Northeasstern University.
-::::
+::: {#articles}
 :::
 
 

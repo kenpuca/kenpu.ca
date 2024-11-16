@@ -1,6 +1,6 @@
 /* css styles */
 
-@import url('/static/css/fonts/fonts.css');
+@import url('static/css/fonts/fonts.css');
 
 body {
     font-family: ETBembo, serif;
