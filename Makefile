@@ -8,6 +8,7 @@ preview:
 
 render:
 	docker run --rm -e UID=`id -u` -e GID=`id -g` -v $(PWD):/web kenpu/quarto
+	cp CNAME docs/
 
 clean:
 	rm -rf ./_site
