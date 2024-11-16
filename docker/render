@@ -1,0 +1,4 @@
+#!/bin/bash
+
+quarto render /web --output-dir docs
+chown -R $UID:$GID /web/docs
