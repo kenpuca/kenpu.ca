@@ -6,8 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Zikun Fu">
+<meta name="author" content="Nick Yang">
+<meta name="author" content="Ken Pu">
+<meta name="dcterms.date" content="2024-11-16">
 
-<title>kenpu.ca</title>
+<title>Closed-domain NER Dataset – kenpu.ca</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +27,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,95 +70,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-articles .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-projects .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -166,7 +82,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">kenpu.ca</span>
     </a>
   </div>
@@ -177,19 +93,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../publications.html"> 
 <span class="menu-text">Recent Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./articles/index.html"> 
+    <a class="nav-link" href="../articles/index.html"> 
 <span class="menu-text">Articles</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About Us</span></a>
   </li>  
 </ul>
@@ -208,118 +124,55 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#research-statement" id="toc-research-statement" class="nav-link active" data-scroll-target="#research-statement"><span class="header-section-number">1</span> Research Statement</a></li>
-  <li><a href="#blogs" id="toc-blogs" class="nav-link" data-scroll-target="#blogs"><span class="header-section-number">2</span> Articles</a></li>
-  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects"><span class="header-section-number">3</span> Projects</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#cd-ner-dataset" id="toc-cd-ner-dataset" class="nav-link" data-scroll-target="#cd-ner-dataset"><span class="header-section-number">2</span> CD-NER Dataset</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<div class="jumbotron">
-<div style="width:250px">
-<p><img src="static/images/logo.png" class="img-fluid" style="width:100.0%"></p>
-</div>
-<div style="text-align:right">
-<p>We study artificial intelligence &amp; workflow automation</p>
-</div>
-</div>
-<section id="research-statement" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Research Statement</h1>
-<div class="grid">
-<section id="fundamental-ai-research" class="level2 g-col-md-6 g-col-12" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="fundamental-ai-research"><span class="header-section-number">1.1</span> Fundamental AI research</h2>
-<p>We aim to advance the foundations of data science, machine learning, and agentic AI.</p>
-<ul>
-<li>mathematical models of neural network dynamics</li>
-<li>meta-learning methods for ensemble learning</li>
-<li>integration of AI with classical computer science</li>
-</ul>
-</section>
-<section id="novel-applications-of-ai" class="level2 g-col-md-6 g-col-12" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="novel-applications-of-ai"><span class="header-section-number">1.2</span> Novel applications of AI</h2>
-<p>Our research focuses on discovering and implementing novel applications of AI technology, particularly in workflow automation. We aim to enhance efficiency, reduce costs, and improve accuracy in various business processes.</p>
-</section>
-<section id="open-source-benchmarks" class="level2 g-col-md-6 g-col-12" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="open-source-benchmarks"><span class="header-section-number">1.3</span> Open-source benchmarks</h2>
-<p>We are committed to providing the research community with open source benchmarks to evaluate AI models and technologies. These benchmarks are crucial for ensuring transparency, reproducibility, and progress in the field of AI research.</p>
-</section>
-<section id="ai-readiness-report" class="level2 g-col-md-6 g-col-12" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="ai-readiness-report"><span class="header-section-number">1.4</span> AI readiness report</h2>
-<p>We assess AI readiness across various industry sectors, identifying opportunities and challenges. Our reports offer insights into the practical implementation of AI technologies and their impact on industry operations.</p>
-</section>
-</div>
-</section>
-<section id="blogs" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Articles</h1>
-<div id="listing-articles" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Author
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1731736536469" data-listing-reading-time-sort="2" data-listing-word-count-sort="259" data-listing-title-sort="Structured Constraint Programming" data-listing-filename-sort="constraint-modeling.ipynb">
-<td>
-<a href="./articles/constraint-modeling.html" class="title listing-title">Structured Constraint Programming</a>
-</td>
-<td>
-<span class="listing-author">Ken Pu</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="projects" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Projects</h1>
-<div id="listing-projects" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Date
-</th>
-<th>
-Title
-</th>
-<th>
-Author
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1731715200000" data-listing-file-modified-sort="1731742984615" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="414" data-listing-title-sort="Closed-domain NER Dataset" data-listing-filename-sort="2024-cdner-dataset.qmd">
-<td>
-<span class="listing-date">Nov 16, 2024</span>
-</td>
-<td>
-<a href="./projects/2024-cdner-dataset.html" class="title listing-title">Closed-domain NER Dataset</a>
-</td>
-<td>
-<span class="listing-author">Zikun Fu, Nick Yang, Ken Pu</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Closed-domain NER Dataset</h1>
 </div>
 
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Zikun Fu </p>
+             <p>Nick Yang </p>
+             <p>Ken Pu </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 16, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p>Named Entity Recognition (NER) is a core problem in natural language processing that involves identifying and categorizing entities within a text into predefined types, such as persons, organizations, locations, etc. The challenge with NER lies in its open-world nature, where each entity type is assumed to have an unconstrained domain, meaning there is no reliance on pre-existing domain knowledge for these entities. This makes the task complex, as the model must generalize to entities it has never encountered before, without any specific constraints regarding the entities’ characteristics or context. The fixed number of entity types provides structure to the problem, but the open-world assumption significantly increases the difficulty of accurately identifying and classifying diverse and novel entities as they appear in real-world texts.</p>
+<p>Closed-Domain NER Challenge: In this research, we assume a closed domain scenario, where each entity type is associated with a database that provides all possible values of the entity. This changes the nature of the NER problem, as the model now has access to a comprehensive list of potential entities for each type, allowing it to leverage this additional information for more accurate tagging. The key research challenge lies in designing an NER tagger that effectively incorporates this closed-domain constraint. Unlike open-domain systems that must rely on statistical patterns and contextual cues alone, the closed-domain approach requires the integration of explicit entity databases, which brings its own set of complexities. The research question centers on how to best combine traditional sequence labeling methods with database lookups, ensuring that the model benefits from the completeness of the closed domain without compromising flexibility or performance.</p>
+</section>
+<section id="cd-ner-dataset" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> CD-NER Dataset</h1>
+<p>Dataset Creation for Closed-Domain NER (CD-NER): To evaluate potential solutions for the closed-domain NER (CD-NER) problem, it is essential to create a dedicated dataset that reflects the characteristics of a closed domain. This dataset should include texts that feature entities drawn from a well-defined set of types, each with an exhaustive list of possible values provided by associated databases. The dataset must be curated to represent the range of variability within the domain, capturing different contexts in which the entities may appear, while ensuring that all entities are drawn from the closed set. Additionally, the dataset should be split into training, validation, and test sets, with careful attention given to ensuring that no unseen entities appear during testing, which aligns with the closed-domain assumption. Such a dataset will serve as a benchmark to evaluate the effectiveness of CD-NER models in leveraging pre-existing entity databases for improved recognition and categorization accuracy.</p>
 
 
 </section>

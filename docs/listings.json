@@ -1,14 +1,14 @@
 [
   {
-    "listing": "/articles/index.html",
+    "listing": "/index.html",
     "items": [
-      "/articles/constraint-modeling.html"
+      "/articles/constraint-modeling.html",
+      "/projects/2024-cdner-dataset.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/articles/index.html",
     "items": [
-      "/articles/index.html",
       "/articles/constraint-modeling.html"
     ]
   }
