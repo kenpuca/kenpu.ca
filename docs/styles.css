@@ -62,13 +62,16 @@ h2.anchored {
     margin-left: 20px;
 }
 
-#blogs table th {
-    display: none;
-}
-
 #blogs table,
 #blogs table tr,
 #blogs table thead,
 #blogs table td {
+    border: none;
+}
+
+#projects table,
+#projects table tr,
+#projects table thead,
+#projects table td {
     border: none;
 }
