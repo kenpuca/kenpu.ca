@@ -1,31 +1,45 @@
 [
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Recent Publications",
-    "section": "",
-    "text": "Nargesian, Fatemeh, Ken Qian Pu, Bahar Ghadiri Bashardoost, Erkang Zhu, and Renee J. Miller. “Data Lake Organization.” IEEE Transactions on Knowledge and Data Engineering (2022). PDF"
-  },
-  {
-    "objectID": "publications.html#journals",
-    "href": "publications.html#journals",
-    "title": "Recent Publications",
-    "section": "",
-    "text": "Nargesian, Fatemeh, Ken Qian Pu, Bahar Ghadiri Bashardoost, Erkang Zhu, and Renee J. Miller. “Data Lake Organization.” IEEE Transactions on Knowledge and Data Engineering (2022). PDF"
-  },
-  {
-    "objectID": "publications.html#conferences-workshops",
-    "href": "publications.html#conferences-workshops",
-    "title": "Recent Publications",
-    "section": "2 Conferences & Workshops",
-    "text": "2 Conferences & Workshops\n\nLimin Ma and Ken Q. Pu. “Accelerating Relational Keyword Queries With Embedded Predictive Neural Networks.” 2024 IEEE 25th International Conference on Information Reuse and Integration for Data Science (IRI). IEEE Computer Society, 2024.\nMekael Wasti, Ken Q. Pu and Ali Neshati. “Voice Interactive User Interfaces Powered by LLMs.” Intelligent Systems Conference (IntelliSys) 2024.\nPu, Ken, and Limin Ma. “Incremental Computation of Information Gain in Temporal Relational Streams.” 2022 IEEE 23rd International Conference on Information Reuse and Integration for Data Science (IRI). IEEE Computer Society, 2022.\nValdron, Michael, and Pu, Ken. “Data Driven Relational Constraint Programming.” 2020 IEEE 21st International Conference on Information Reuse and Integration for Data Science (IRI). IEEE Computer Society, 2020. PDF\n\n\nA complete list can be found on Google Scholar."
-  },
-  {
     "objectID": "projects/2024-cdner-dataset.html",
     "href": "projects/2024-cdner-dataset.html",
     "title": "Closed-domain NER Dataset",
     "section": "",
     "text": "1 Introduction\nNamed Entity Recognition (NER) is a core problem in natural language processing that involves identifying and categorizing entities within a text into predefined types, such as persons, organizations, locations, etc. The challenge with NER lies in its open-world nature, where each entity type is assumed to have an unconstrained domain, meaning there is no reliance on pre-existing domain knowledge for these entities. This makes the task complex, as the model must generalize to entities it has never encountered before, without any specific constraints regarding the entities’ characteristics or context. The fixed number of entity types provides structure to the problem, but the open-world assumption significantly increases the difficulty of accurately identifying and classifying diverse and novel entities as they appear in real-world texts.\nClosed-Domain NER Challenge: In this research, we assume a closed domain scenario, where each entity type is associated with a database that provides all possible values of the entity. This changes the nature of the NER problem, as the model now has access to a comprehensive list of potential entities for each type, allowing it to leverage this additional information for more accurate tagging. The key research challenge lies in designing an NER tagger that effectively incorporates this closed-domain constraint. Unlike open-domain systems that must rely on statistical patterns and contextual cues alone, the closed-domain approach requires the integration of explicit entity databases, which brings its own set of complexities. The research question centers on how to best combine traditional sequence labeling methods with database lookups, ensuring that the model benefits from the completeness of the closed domain without compromising flexibility or performance.\n\n\n2 CD-NER Dataset\nDataset Creation for Closed-Domain NER (CD-NER): To evaluate potential solutions for the closed-domain NER (CD-NER) problem, it is essential to create a dedicated dataset that reflects the characteristics of a closed domain. This dataset should include texts that feature entities drawn from a well-defined set of types, each with an exhaustive list of possible values provided by associated databases. The dataset must be curated to represent the range of variability within the domain, capturing different contexts in which the entities may appear, while ensuring that all entities are drawn from the closed set. Additionally, the dataset should be split into training, validation, and test sets, with careful attention given to ensuring that no unseen entities appear during testing, which aligns with the closed-domain assumption. Such a dataset will serve as a benchmark to evaluate the effectiveness of CD-NER models in leveraging pre-existing entity databases for improved recognition and categorization accuracy.\n\n\n\n\n\nAI Automation Group, 2024 ©"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "1 Research Statement",
+    "section": "",
+    "text": "We study artificial intelligence & workflow automation"
+  },
+  {
+    "objectID": "index.html#fundamental-ai-research",
+    "href": "index.html#fundamental-ai-research",
+    "title": "1 Research Statement",
+    "section": "1.1 Fundamental AI research",
+    "text": "1.1 Fundamental AI research\nWe aim to advance the foundations of data science, machine learning, and agentic AI.\n\nmathematical models of neural network dynamics\nmeta-learning methods for ensemble learning\nintegration of AI with classical computer science"
+  },
+  {
+    "objectID": "index.html#novel-applications-of-ai",
+    "href": "index.html#novel-applications-of-ai",
+    "title": "1 Research Statement",
+    "section": "1.2 Novel applications of AI",
+    "text": "1.2 Novel applications of AI\nOur research focuses on discovering and implementing novel applications of AI technology, particularly in workflow automation. We aim to enhance efficiency, reduce costs, and improve accuracy in various business processes."
+  },
+  {
+    "objectID": "index.html#open-source-benchmarks",
+    "href": "index.html#open-source-benchmarks",
+    "title": "1 Research Statement",
+    "section": "1.3 Open-source benchmarks",
+    "text": "1.3 Open-source benchmarks\nWe are committed to providing the research community with open source benchmarks to evaluate AI models and technologies. These benchmarks are crucial for ensuring transparency, reproducibility, and progress in the field of AI research."
+  },
+  {
+    "objectID": "index.html#ai-readiness-report",
+    "href": "index.html#ai-readiness-report",
+    "title": "1 Research Statement",
+    "section": "1.4 AI readiness report",
+    "text": "1.4 AI readiness report\nWe assess AI readiness across various industry sectors, identifying opportunities and challenges. Our reports offer insights into the practical implementation of AI technologies and their impact on industry operations."
   },
   {
     "objectID": "articles/constraint-modeling.html",
@@ -84,6 +98,13 @@
     "text": "7 Viewing the solution\n\ndef view(solver:CpSolver, df:DataFrame)-&gt;DataFrame:\n    def fn(x):\n        return solver.value(x)\n    return df.map(fn)\n\n\nview(solver, unknown).head()\n\n\n\n\n\n\n\nsemesters\nY1 Fall\nY1 Winter\nY2 Fall\nY2 Winter\nY3 Fall\nY3 Winter\nY4 Fall\nY4 Winter\n\n\ncourses\n\n\n\n\n\n\n\n\n\n\n\n\nCSCI 1030U\n1\n0\n0\n0\n0\n0\n0\n0\n\n\nCSCI 1060U\n0\n0\n0\n0\n0\n0\n0\n0\n\n\nCSCI 1061U\n0\n0\n0\n0\n0\n0\n0\n0\n\n\nCSCI 1062U\n0\n0\n0\n0\n0\n0\n0\n0\n\n\nCSCI 1063U\n1\n0\n0\n0\n0\n0\n0\n0\n\n\n\n\n\n\n\n\nview(solver, taken_in)\n\ncourses\nCSCI 1030U    1\nCSCI 1060U    0\nCSCI 1061U    0\nCSCI 1062U    0\nCSCI 1063U    1\nCSCI 2000U    1\nCSCI 2010U    1\nCSCI 2020U    1\nCSCI 2040U    2\nCSCI 2050U    2\nCSCI 2072U    2\nCSCI 2110U    2\nCSCI 3010U    2\nCSCI 3030U    3\nCSCI 3055U    3\nCSCI 3060U    3\nCSCI 3070U    3\nCSCI 3090U    3\nCSCI 3230U    4\nCSCI 3240U    4\nCSCI 3310U    4\nCSCI 3540U    4\nCSCI 4020U    4\nCSCI 4030U    5\nCSCI 4040U    5\nCSCI 4050U    5\nCSCI 4052U    5\nCSCI 4055U    5\nCSCI 4060U    6\nCSCI 4080U    6\nCSCI 4100U    6\nCSCI 4110U    6\nCSCI 4140U    6\nCSCI 4150U    7\nCSCI 4160U    7\nCSCI 4210U    7\nCSCI 4220U    7\nCSCI 4230U    7\nCSCI 4410U    8\nCSCI 4420U    8\nCSCI 4430U    8\nCSCI 4610U    8\nCSCI 4620U    8\ndtype: int64\n\n\n\nview(solver, taken_in) \\\n.to_frame() \\\n.reset_index() \\\n.rename(columns={0: 'semester'}) \\\n.groupby(by='semester') \\\n.agg({\n    'courses': lambda x: (f\"{len(x)} :\" + \", \".join(x))\n})\n\n\n\n\n\n\n\n\ncourses\n\n\nsemester\n\n\n\n\n\n0\n3 :CSCI 1060U, CSCI 1061U, CSCI 1062U\n\n\n1\n5 :CSCI 1030U, CSCI 1063U, CSCI 2000U, CSCI 20...\n\n\n2\n5 :CSCI 2040U, CSCI 2050U, CSCI 2072U, CSCI 21...\n\n\n3\n5 :CSCI 3030U, CSCI 3055U, CSCI 3060U, CSCI 30...\n\n\n4\n5 :CSCI 3230U, CSCI 3240U, CSCI 3310U, CSCI 35...\n\n\n5\n5 :CSCI 4030U, CSCI 4040U, CSCI 4050U, CSCI 40...\n\n\n6\n5 :CSCI 4060U, CSCI 4080U, CSCI 4100U, CSCI 41...\n\n\n7\n5 :CSCI 4150U, CSCI 4160U, CSCI 4210U, CSCI 42...\n\n\n8\n5 :CSCI 4410U, CSCI 4420U, CSCI 4430U, CSCI 46..."
   },
   {
+    "objectID": "articles/index.html",
+    "href": "articles/index.html",
+    "title": "Articles",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nApproaches and Challenges in Annotating a Closed Domain NER Dataset\n\n\nZikun Fu\n\n\n\n\nStructured Constraint Programming\n\n\nKen Pu\n\n\n\n\n\nNo matching items\n\n\nAI Automation Group, 2024 ©"
+  },
+  {
     "objectID": "articles/Approaches and Challenges in Annotating a Closed Domain NER Dataset.html",
     "href": "articles/Approaches and Challenges in Annotating a Closed Domain NER Dataset.html",
     "title": "Approaches and Challenges in Annotating a Closed Domain NER Dataset",
@@ -126,13 +147,6 @@
     "text": "5 Challenges\n\nAlignment Issues:\n\nNatural language questions often use varied phrasing that doesn’t directly match the lexemes (e.g., table names, column names) in the database schema.\n\nOverlapping Entities:\n\nWhen multiple entities are mentioned closely together in a question, their textual representations can overlap.\n\n\nWe can approach the challenge in the following ways:\n\nAlignment\n\nContinous Annotation: Only continuous (adjacent) substrings in the sentence can be annotated as entities. This means that the words corresponding to an entity must be next to each other without any interruptions.\nNon-continuous Annotation: Allows for the annotation of entities even if the corresponding words are not adjacent in the sentence. This approach is more flexible and can capture entities that are mentioned in a scattered manner throughout the sentence.\n\nOverlap\n\nOverlap Annotation: Annotations are allowed to overlap in the sentence; that is, a word or phrase can be part of multiple entity annotations. This is useful when different entities share common words in the question.\nNon-overlap Annotation: Annotations cannot overlap; each word or phrase can be assigned to at most one entity. This constraint ensures that once a word is part of an entity annotation, it cannot be part of another.\n\n\n\n5.1 Example\nSuppose the following sentence and lexemes:\n\nsentence = \"Name movie titles released in year 1945. Sort the listing by the descending order of movie popularity.\"\nlexemes = [\n    ('column', 'movie_release_year'),\n    ('column', 'movie_popularity'),\n    ('column', 'movie_title'),\n    ('table', 'movies'),\n    ('value', '1945')\n]\n\n\n\n5.2 Continous Overlapping\nDefinition: Only continuous substrings in the sentence can be annotated as entities, and annotations are allowed to overlap (i.e., a word or phrase can be part of multiple annotations).\nSentence: “Name [{movie} titles] [released in year] [1945]. Sort the listing by the descending order of [movie popularity].”\n\n{movie} and [movie released in year] matches to the ‘movie_release_year’ column.\n[movie titles] matches the ‘movie_title’ column.\n[1945] matches the ‘1945’ value.\n[movie popularity] matches the ‘movie_popularity’ column.\n\n\n\n5.3 Continuous Non-Overlapping\nDefinition: Only continuous substrings in the sentence can be annotated as entities, and annotations cannot overlap (i.e., each word or phrase can be part of at most one annotation).\nSentence: “Name [movie titles] [released in year] [1945]. Sort the listing by the descending order of [movie popularity].”\n\n[movie titles] matches the ‘movie_title’ column.\n[released in year] matches the ‘movie_release_year’ column.\n[1945] matches the ‘1945’ value.\n[movie popularity] matches the ‘movie_popularity’ column.\n\n\n\n5.4 Non-Continuous Overlapping\nDefinition: Substrings can be non-continuous (i.e., words corresponding to an entity do not need to be adjacent), and annotations are allowed to overlap.\nSentence: “Name [{movie} titles] [released] in [year] [1945]. Sort the listing by the descending order of [{movie} popularity].”\n\n{movie} matches the ‘movies’ table.\n[movie titles] separately match the ‘movie_title’ columns.\n{movie}, [released] and [year] correspond to the ‘movie_release_year’ columns.\n[1945] matches the ‘1945’ value.\n[movie popularity] correspond to the ‘movie_popularity’ column.\n\n\n\n5.5 Non-Continuous Non-Overlapping\nDefinition: Substrings can be non-continuous, and annotations cannot overlap.\nSentence: “Name [movie] [titles] [released] in [year] [1945]. Sort the listing by the descending order of [movie] [popularity].”\n\n[movie] matches the ‘movies’ table or ‘movie_title’ column.\n[titles] matches the ‘movie_title’ column.\n[released] matches the ‘movie_release_year’ column.\n[year] matches the ‘movie_release_year’ column.\n[1945] matches the ‘1945’ value.\n[movie] [popularity] matches the ‘movie_popularity’ column."
   },
   {
-    "objectID": "articles/index.html",
-    "href": "articles/index.html",
-    "title": "Articles",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nApproaches and Challenges in Annotating a Closed Domain NER Dataset\n\n\nZikun Fu\n\n\n\n\nStructured Constraint Programming\n\n\nKen Pu\n\n\n\n\n\nNo matching items\n\n\nAI Automation Group, 2024 ©"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Us",
@@ -140,38 +154,24 @@
     "text": "1 Members\n\n\n\nKen Pu is an associate professor in Computer Science at Ontario Tech University. He has been actively working in the intersection of database systems, text and natural language processing, machine learning and artificial intelligence. He received his PhD in Computer Science from University of Toronto in 2006.\n\n\n\n\n\n\n\nLimin Ma is working on AI agents and agentic workflows involving multimodal and custom LLMs. He obtained his Masters in Computer Science from Ontario Tech University where he worked on embedded neural networks for keyword query optimization.\n\n\n\n\n\nZikun Fu is working on instruction tuned embedding models for semantic retrieval applications. He is currently working on benchmarks for instruction based embedding models. Zikun is currently working on his master’s degree.\n\n\n\n\n\nChen Yang is a visiting researcher for the duration of Summer 2024. We are studying text embedding models with instructions: their evaluation and optimization. Chen is completing his master’s degree from Northeasstern University.\n\n\n\n\n\n\n\nAI Automation Group, 2024 ©"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "1 Research Statement",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Recent Publications",
     "section": "",
-    "text": "We study artificial intelligence & workflow automation"
+    "text": "Nargesian, Fatemeh, Ken Qian Pu, Bahar Ghadiri Bashardoost, Erkang Zhu, and Renee J. Miller. “Data Lake Organization.” IEEE Transactions on Knowledge and Data Engineering (2022). PDF"
   },
   {
-    "objectID": "index.html#fundamental-ai-research",
-    "href": "index.html#fundamental-ai-research",
-    "title": "1 Research Statement",
-    "section": "1.1 Fundamental AI research",
-    "text": "1.1 Fundamental AI research\nWe aim to advance the foundations of data science, machine learning, and agentic AI.\n\nmathematical models of neural network dynamics\nmeta-learning methods for ensemble learning\nintegration of AI with classical computer science"
+    "objectID": "publications.html#journals",
+    "href": "publications.html#journals",
+    "title": "Recent Publications",
+    "section": "",
+    "text": "Nargesian, Fatemeh, Ken Qian Pu, Bahar Ghadiri Bashardoost, Erkang Zhu, and Renee J. Miller. “Data Lake Organization.” IEEE Transactions on Knowledge and Data Engineering (2022). PDF"
   },
   {
-    "objectID": "index.html#novel-applications-of-ai",
-    "href": "index.html#novel-applications-of-ai",
-    "title": "1 Research Statement",
-    "section": "1.2 Novel applications of AI",
-    "text": "1.2 Novel applications of AI\nOur research focuses on discovering and implementing novel applications of AI technology, particularly in workflow automation. We aim to enhance efficiency, reduce costs, and improve accuracy in various business processes."
-  },
-  {
-    "objectID": "index.html#open-source-benchmarks",
-    "href": "index.html#open-source-benchmarks",
-    "title": "1 Research Statement",
-    "section": "1.3 Open-source benchmarks",
-    "text": "1.3 Open-source benchmarks\nWe are committed to providing the research community with open source benchmarks to evaluate AI models and technologies. These benchmarks are crucial for ensuring transparency, reproducibility, and progress in the field of AI research."
-  },
-  {
-    "objectID": "index.html#ai-readiness-report",
-    "href": "index.html#ai-readiness-report",
-    "title": "1 Research Statement",
-    "section": "1.4 AI readiness report",
-    "text": "1.4 AI readiness report\nWe assess AI readiness across various industry sectors, identifying opportunities and challenges. Our reports offer insights into the practical implementation of AI technologies and their impact on industry operations."
+    "objectID": "publications.html#conferences-workshops",
+    "href": "publications.html#conferences-workshops",
+    "title": "Recent Publications",
+    "section": "2 Conferences & Workshops",
+    "text": "2 Conferences & Workshops\n\nLimin Ma and Ken Q. Pu. “Accelerating Relational Keyword Queries With Embedded Predictive Neural Networks.” 2024 IEEE 25th International Conference on Information Reuse and Integration for Data Science (IRI). IEEE Computer Society, 2024.\nMekael Wasti, Ken Q. Pu and Ali Neshati. “Voice Interactive User Interfaces Powered by LLMs.” Intelligent Systems Conference (IntelliSys) 2024.\nPu, Ken, and Limin Ma. “Incremental Computation of Information Gain in Temporal Relational Streams.” 2022 IEEE 23rd International Conference on Information Reuse and Integration for Data Science (IRI). IEEE Computer Society, 2022.\nValdron, Michael, and Pu, Ken. “Data Driven Relational Constraint Programming.” 2020 IEEE 21st International Conference on Information Reuse and Integration for Data Science (IRI). IEEE Computer Society, 2020. PDF\n\n\nA complete list can be found on Google Scholar."
   }
 ]
