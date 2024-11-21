@@ -1,15 +1,17 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/articles/index.html",
     "items": [
-      "/articles/constraint-modeling.html",
-      "/projects/2024-cdner-dataset.html"
+      "/articles/Approaches and Challenges in Annotating a Closed Domain NER Dataset.html",
+      "/articles/constraint-modeling.html"
     ]
   },
   {
-    "listing": "/articles/index.html",
+    "listing": "/index.html",
     "items": [
-      "/articles/constraint-modeling.html"
+      "/articles/Approaches and Challenges in Annotating a Closed Domain NER Dataset.html",
+      "/articles/constraint-modeling.html",
+      "/projects/2024-cdner-dataset.html"
     ]
   }
 ]
