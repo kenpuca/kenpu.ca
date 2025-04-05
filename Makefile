@@ -5,8 +5,10 @@ preview:
 
 render:
 	quarto render
-	rsync -av ./_site ./docs
+
+deploy:
+	rsync -av ./_site/ ./docs
 	cp CNAME docs/
 
 clean:
-	rm -rf ./_site
+	rm -rf ./_site ./docs
