@@ -1,0 +1,9 @@
+---
+title: Document OCR Dataset
+order: 2
+author:
+  - Neel Shah
+  - Farees Siddiqi
+  - Ethan Janovic
+  - Ken Pu
+---

@@ -52,6 +52,7 @@ h2.anchored {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 .member img {
     min-width: 100px;

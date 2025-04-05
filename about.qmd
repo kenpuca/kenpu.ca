@@ -13,16 +13,9 @@ database systems, text and natural language processing, machine learning and art
 ::::
 :::
 
-::: {.member}
-<div style="min-width:100px; height:100px; background:#eee; border-radius: 50%; margin:0"></div>
-:::: {}
-**Limin Ma** is working on AI agents and agentic workflows involving multimodal and custom LLMs.
-He obtained his Masters in Computer Science from Ontario Tech University where he worked on embedded neural networks for keyword query optimization.
-::::
-:::
 
 ::: {.member}
-![](static/images/zikun_fu.jpg)
+<div style="min-width:100px; height:100px; background:#eee; border-radius: 50%; margin:0"></div>
 
 :::: {}
 **Zikun Fu** is working on instruction tuned embedding models for semantic retrieval applications.  He is currently working on benchmarks for instruction based embedding models.  Zikun is currently working on his master's degree.
@@ -30,9 +23,27 @@ He obtained his Masters in Computer Science from Ontario Tech University where h
 :::
 
 ::: {.member}
-![](static/images/chen_yang.jpg)
+<div style="min-width:100px; height:100px; background:#eee; border-radius: 50%; margin:0"></div>
+
+:::: {}
+**Adam Bunce** is completing his undergraduate honours thesis "_Curricum Requirement Planning Using Constraint Programming_".  His work models a typical undergraduate curriculum as a set of combinartoric constraints, and using a high performant SAT solver, his system allows students to interactively verify and plan out their current and future course selectors in order to satisfy various curriculum requirements as well as their own individual learning objectives.
+::::
+:::
+
+# Visitors
+
+::: {.member}
+<div style="min-width:100px; height:100px; background:#eee; border-radius: 50%; margin:0"></div>
 
 :::: {}
 **Chen Yang** is a visiting researcher for the duration of Summer 2024. We are studying text embedding models with instructions: their evaluation and optimization.  Chen is completing his master's degree from Northeasstern University.
+::::
+:::
+
+::: {.member}
+<div style="min-width:100px; height:100px; background:#eee; border-radius: 50%; margin:0"></div>
+:::: {}
+**Limin Ma** is working on AI agents and agentic workflows involving multimodal and custom LLMs.
+He obtained his Masters in Computer Science from Ontario Tech University where he worked on embedded neural networks for keyword query optimization.
 ::::
 :::
