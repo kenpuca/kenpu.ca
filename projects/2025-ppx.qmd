@@ -6,5 +6,4 @@ author:
   - Farees Siddiqui
   - Levi Willm
   - Ethan Janovitz
-date: September, 2025
 ---

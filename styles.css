@@ -29,11 +29,9 @@ body {
     margin-bottom: 0;
 }
 
-.footer {
-    border-top: 4px solid #e5e5e5;
-    text-align: center;
-    margin-top: 50px;
-}
+
+
+
 #quarto-content {
     color: #222;
 }

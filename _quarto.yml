@@ -3,7 +3,7 @@ project:
   resources: static
 
 website:
-  title: "dB@<b style=color:#000>OntarioTechU</b>"
+  title: "Data & Info Research@<b style=color:#000>OntarioTechU</b>"
   navbar:
     left:
       - href: index.qmd
@@ -12,9 +12,7 @@ website:
       - href: articles/index.qmd
         text: Articles
       - about.qmd
-  page-footer: "
-  <div class=footer>Database & Automated Workflow, 2025 ©</div>
-  "
+  page-footer: "Database / AI / Workflow, 2025 ©"
 
 format:
   html:

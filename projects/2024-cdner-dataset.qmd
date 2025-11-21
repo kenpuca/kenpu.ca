@@ -5,7 +5,6 @@ author:
   - Zikun Fu
   - Prof. Kourosh Davoudi
   - Prof. Ken Pu
-date: November 16, 2024
 ---
 
 # Introduction
