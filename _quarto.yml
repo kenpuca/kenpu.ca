@@ -3,7 +3,7 @@ project:
   resources: static
 
 website:
-  title: "kenpu.ca"
+  title: "dB@<b style=color:#000>OntarioTechU</b>"
   navbar:
     left:
       - href: index.qmd
@@ -12,8 +12,8 @@ website:
       - href: articles/index.qmd
         text: Articles
       - about.qmd
-  body-footer: "
-  <div class=footer>AI Automation Group, 2024 ©</div>
+  page-footer: "
+  <div class=footer>Database & Automated Workflow, 2025 ©</div>
   "
 
 format:

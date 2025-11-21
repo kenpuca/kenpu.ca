@@ -23,7 +23,7 @@ listing:
 ::::
 
 :::: {style="text-align:right"}
-We study artificial intelligence & workflow automation
+Databases, AI and Workflow Automation
 ::::
 
 :::
@@ -62,13 +62,14 @@ We assess AI readiness across various industry sectors, identifying opportunitie
 
 
 
-# Articles {#blogs}
-
-::: {#articles}
-:::
-
-
 # Projects {#projects}
 
 ::: {#projects}
 :::
+
+::: {#articles .hidden}
+:::
+
+# Recent Publications
+
+{{< include _includes/publications.qmd >}}

@@ -1,0 +1,10 @@
+---
+title: Document understanding
+order: 1
+author: 
+  - Prof. Ken Pu
+  - Farees Siddiqui
+  - Levi Willm
+  - Ethan Janovitz
+date: September, 2025
+---

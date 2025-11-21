@@ -1,0 +1,6 @@
+<bibliography>
+  <sort>
+    <key variable="issued" sort="descending"/>
+    <key variable="title"/>
+  </sort>
+</bibliography>

@@ -3,8 +3,8 @@ title: Closed-domain NER Dataset
 order: 1
 author: 
   - Zikun Fu
-  - Nick Yang
-  - Ken Pu
+  - Prof. Kourosh Davoudi
+  - Prof. Ken Pu
 date: November 16, 2024
 ---
 

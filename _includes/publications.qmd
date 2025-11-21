@@ -1,0 +1,11 @@
+- Ken Pu, Limin Ma, Bohdan Synytski, "Semantic Relational Types of SQL Queries and Applications to AI Agent Tool Selection", In 2025 IEEE CASCON, Toronto, Canada
+
+- Fu, Z., Yang, C., Davoudi, K., & Pu, K. Q. (2025, August). Database Entity Recognition with Data Augmentation and Deep Learning. In 2025 IEEE International Conference on Information Reuse and Integration and Data Science (IRI) (pp. 349-354). IEEE.
+
+- Ma, L., Pu, K., Zhu, Y., & Taylor, W. (2025). Comparing large language models for generating complex queries. Journal of Computer and Communications, 13(2), 236-249.
+
+- Fu, Z., Yang, C., Davoudi, H., & Pu, K. (2024). Transforming Text-to-SQL Datasets into Closed-Domain NER Benchmark. Ontario DataBase Day–Program, 12.
+
+- Ma, Limin, and Ken Q. Pu. "Accelerating Relational Keyword Queries With Embedded Predictive Neural Networks." 2024 IEEE International Conference on Information Reuse and Integration for Data Science (IRI). IEEE, 2024.
+
+- Wasti, Syed Mekael, Ken Q. Pu, and Ali Neshati. "Large language user interfaces: Voice interactive user interfaces powered by LLMs." Intelligent Systems Conference. Cham: Springer Nature Switzerland, 2024.
