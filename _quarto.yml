@@ -1,6 +1,7 @@
 project:
   type: website
   resources: static
+  output-dir: docs
 
 website:
   title: "Data & Info Research@<b style=color:#000>OntarioTechU</b>"
