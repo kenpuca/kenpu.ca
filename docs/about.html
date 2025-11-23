@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -124,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#members" id="toc-members" class="nav-link active" data-scroll-target="#members"><span class="header-section-number">1</span> Members</a></li>
+  <li><a href="#members" id="toc-members" class="nav-link active" data-scroll-target="#members">Members</a></li>
   </ul>
 </nav>
     </div>
@@ -150,51 +170,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="members" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Members</h1>
+<section id="members" class="level1 unnumbered">
+<h1 class="unnumbered">Members</h1>
 <div class="member">
 <p><img src="static/images/kenpu.png" class="img-fluid"></p>
 <div>
 <p><strong>Ken Pu</strong> is an associate professor in Computer Science at Ontario Tech University. He has been actively working in the intersection of database systems, text and natural language processing, machine learning and artificial intelligence. He received his PhD in Computer Science from University of Toronto in 2006.</p>
 </div>
 </div>
-<div class="member">
-<div style="min-width:100px; height:100px; background:#eee; border-radius: 50%; margin:0">
-
-</div>
-<div>
-<p><strong>Farees Siddiqui</strong>, MSc in Computer Science, 2025-2027</p>
-</div>
-</div>
-<div class="member">
-<div style="min-width:100px; height:100px; background:#eee; border-radius: 50%; margin:0">
-
-</div>
-<div>
+<p><strong>Farees Siddiqui</strong>, MSc in Computer Science, 2026-2027</p>
+<blockquote class="blockquote">
+<p>Farees’s research interest is in the intersection of large scale MLOps and high precision document understanding. He will be working on algorithms and systems to process documents at scale to extract valuable knowledge graphs, and synthesize accessible knowledge representations for a wide range of applications.</p>
+</blockquote>
 <p><strong>Zikun Fu</strong>, MSc in Computer Science, 2023-2025.</p>
-</div>
-</div>
-<div class="member">
-<div style="min-width:100px; height:100px; background:#eee; border-radius: 50%; margin:0">
+<blockquote class="blockquote">
+<p>Zikun’s research interest is in deep neural networks for database entity recognition (DBER). In particular, Zikun’s research proposed a novel DBER pipeline optimized for closed-domain applications where the source of the entities is known. Our DBER pipeline introduces recall-boosting classifier and entitiy verifier to simultaneously improve the end-to-end precision and recall. Zikun’s work on synthetic data augmentation <span class="citation" data-cites="fu2024transforming">(<a href="#ref-fu2024transforming" role="doc-biblioref">Fu et al. 2024</a>)</span> and DBER pipeline <span class="citation" data-cites="fu2025database">(<a href="#ref-fu2025database" role="doc-biblioref">Fu et al. 2025</a>)</span> have been published in numerous refereed publications.</p>
+</blockquote>
+<p><strong>Levi Willm</strong>, BSc in Computer Science, 205-2026</p>
+<blockquote class="blockquote">
+<p>Levi’s working on various methods to assess AI model strength in document understanding and document synthesis. He is designing adversarial tests involving a large number of domain specific documents and text books.</p>
+</blockquote>
+<p><strong>Ethan Janovitz</strong>, BSc in Computer Science, 2025-2026</p>
+<blockquote class="blockquote">
+<p>Ethan’s interest is in novel applications that incorporate AI models in visualization of the results of topical analysis and knowledge extraction of text books.</p>
+</blockquote>
+<p><strong>Bohdan Synytski</strong>, USRA Student, summer 2025</p>
+<blockquote class="blockquote">
+<p>Bohdan is the recipient of the 2025 NSERC Undergraduate Student Research Award. He spent the summer to collaborate with Limin Ma and Professor Ying Zhu on the problem of semantic relational types for AI tool selection. Our work <span class="citation" data-cites="pu2025cascon">(<a href="#ref-pu2025cascon" role="doc-biblioref">Ma et al. 2025</a>)</span> has appeared in CASCON 2025.</p>
+</blockquote>
 
-</div>
-<div>
-<p><strong>Levi Willm</strong>, BSc in Computer Science</p>
-</div>
-</div>
-<div class="member">
-<div style="min-width:100px; height:100px; background:#eee; border-radius: 50%; margin:0">
-
-</div>
-<div>
-<p><strong>Ethan Janovitz</strong>, BSc in Computer Science</p>
-</div>
-</div>
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-fu2025database" class="csl-entry" role="listitem">
+Fu, Zikun, Yang Chen, Kourosh Davoudi, and Ken Q. Pu. 2025. <span>“Database Entity Recognition with Data Augmentation and Deep Learning.”</span> In <em>IEEE 26th International Conference on Information Reuse and Integration</em>, 1–6.
+</div>
+<div id="ref-fu2024transforming" class="csl-entry" role="listitem">
+Fu, Zikun, Chen Yang, Heidar Davoudi, and Ken Pu. 2024. <span>“Transforming Text-to-SQL Datasets into Closed-Domain NER Benchmark.”</span> <em>Ontario DataBase Day–Program</em>, 12.
+</div>
+<div id="ref-pu2025cascon" class="csl-entry" role="listitem">
+Ma, Limin, Bohdan Synytski, Ying Zhu, and Ken Pu. 2025. <span>“Semantic Relational Types for AI Tool Selection.”</span> In <em>In Proc. Of IEEE CASCON 2025</em>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

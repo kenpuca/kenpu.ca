@@ -1,8 +1,9 @@
 ---
 title: "About Us"
+bibliography: references.bib
 ---
 
-# Members
+# Members {.unnumbered}
 
 ::: {.member}
 ![](static/images/kenpu.png)
@@ -14,36 +15,24 @@ database systems, text and natural language processing, machine learning and art
 :::
 
 
-::: {.member}
-<div style="min-width:100px; height:100px; background:#eee; border-radius: 50%; margin:0"></div>
+**Farees Siddiqui**, MSc in Computer Science, 2026-2027
 
-:::: {}
-**Farees Siddiqui**, MSc in Computer Science, 2025-2027
-::::
-:::
+> Farees's research interest is in the intersection of large scale MLOps and high precision document understanding.  He will be working on algorithms and systems to process documents at scale to extract valuable knowledge graphs, and synthesize accessible knowledge representations for a wide range of applications.
 
 
 
-::: {.member}
-<div style="min-width:100px; height:100px; background:#eee; border-radius: 50%; margin:0"></div>
-
-:::: {}
 **Zikun Fu**, MSc in Computer Science, 2023-2025.
-::::
-:::
 
-::: {.member}
-<div style="min-width:100px; height:100px; background:#eee; border-radius: 50%; margin:0"></div>
+> Zikun's research interest is in deep neural networks for database entity recognition (DBER).  In particular, Zikun's research proposed a novel DBER pipeline optimized for closed-domain applications where the source of the entities is known.  Our DBER pipeline introduces recall-boosting classifier and entitiy verifier to simultaneously improve the end-to-end precision and recall.  Zikun's work on synthetic data augmentation [@fu2024transforming] and DBER pipeline [@fu2025database] have been published in numerous refereed publications.
 
-:::: {}
-**Levi Willm**, BSc in Computer Science
-::::
-:::
+**Levi Willm**, BSc in Computer Science, 205-2026
 
-::: {.member}
-<div style="min-width:100px; height:100px; background:#eee; border-radius: 50%; margin:0"></div>
-:::: {}
-**Ethan Janovitz**, BSc in Computer Science
-::::
-:::
+> Levi's working on various methods to assess AI model strength in document understanding and document synthesis.  He is designing adversarial tests involving a large number of domain specific documents and text books.
 
+**Ethan Janovitz**, BSc in Computer Science, 2025-2026
+
+> Ethan's interest is in novel applications that incorporate AI models in visualization of the results of topical analysis and knowledge extraction of text books.
+
+**Bohdan Synytski**, USRA Student, summer 2025
+
+> Bohdan is the recipient of the 2025 NSERC Undergraduate Student Research Award.  He spent the summer to collaborate with Limin Ma and Professor Ying Zhu on the problem of semantic relational types for AI tool selection.  Our work [@pu2025cascon] has appeared in CASCON 2025.

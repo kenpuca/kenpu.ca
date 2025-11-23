@@ -7,11 +7,14 @@ render:
 	quarto render
 
 deploy:
-	rsync -av ./_site/ ./docs
 	cp CNAME docs/
 	git add --all
 	git commit -m 'writing'
 	git push
+
+
+dbscience:
+	ssh db 'cd /www/kenpu.ca && git pull'
 
 clean:
 	rm -rf ./_site ./docs
