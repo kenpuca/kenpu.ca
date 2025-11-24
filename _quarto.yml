@@ -4,6 +4,7 @@ project:
   output-dir: docs
 
 website:
+  google-analytics: "G-YMN4N6P546"
   title: "Data & Info Research@<b style=color:#000>OntarioTechU</b>"
   navbar:
     left:
