@@ -5,7 +5,7 @@ project:
 
 website:
   google-analytics: "G-YMN4N6P546"
-  title: "Data & Info Research@<b style=color:#000>OntarioTechU</b>"
+  title: "<a href='https://ontariotechu.ca'><b style='color:#000;font-size:1em'>OnTechU</b></a>"
   navbar:
     left:
       - href: index.qmd

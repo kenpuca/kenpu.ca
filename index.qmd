@@ -1,4 +1,5 @@
 ---
+lightbox: true
 bibliography: references.bib
 listing:
 - id: articles
@@ -36,9 +37,10 @@ Databases, AI and Workflow Automation
 [Ontario Tech University](https://ontariotechu.ca/)
 
 He received his PhD in Computer Science from University of Toronto in 2006. Dr. Pu's expertise is in database systems, applied machine learning, and data-driven workflows.
-
 ::::
 :::
+
+{{< include _includes/members.qmd >}}
 
 
 # Research Directions

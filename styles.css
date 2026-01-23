@@ -25,20 +25,20 @@ body {
     max-width: 600px;
     padding: 0 50px;
 }
+
 .jumbotron p:last-child {
     margin-bottom: 0;
 }
 
-
-
-
 #quarto-content {
     color: #222;
 }
-section > h1 {
+
+section>h1 {
     font-size: 1.7em;
     border-bottom: 1px solid #e5e5e5;
 }
+
 h2.anchored {
     font-size: 1.3em;
     text-decoration: none;
@@ -52,12 +52,14 @@ h2.anchored {
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
 .member img {
     min-width: 100px;
     max-width: 100px;
     border-radius: 50%;
 }
-.member > div {
+
+.member>div {
     margin-left: 20px;
 }
 
