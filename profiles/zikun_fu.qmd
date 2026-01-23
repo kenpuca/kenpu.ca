@@ -3,6 +3,10 @@ title: "Zikun's research"
 lightbox: true
 ---
 
+::: {style="text-align: center; font-size: 1.2em;"}
+[Resume <span style='color: red'>{{<fa file-pdf >}}</span>](./zikun_fu/resume.pdf)
+:::
+
 # Synthetic Data Augmentation for Database Entity Recognition
 
 We study the Database Entity Recognition (DB-ER): identifying database tables, columns, and values in natural-language queries (NLQs), a core but under-isolated subtask in text-to-SQL systems. We reformulate DB-ER as a closed-domain NER problem grounded in database schemas and SQL structure. We construct a benchmark derived from Spider and BIRD, introduce an automatic SQL-guided data augmentation method to scale training data, and propose a T5-based two-stage tagging model. Experiments show that synthetic supervision and encoder fine-tuning substantially improve precision and recall, and that the proposed approach outperforms strong NER baselines such as LUKE and Flair on DB-specific entity types.
@@ -49,4 +53,8 @@ I was responsible for the development of the GREx An Educational Survey Dashboar
 :::: {.g-col-md-4 .g-col-12}
 ![GREx Visualizer 2](./zikun_fu/GREx_Visualizer_2.png){width="100%" group="grex"}
 ::::
+:::
+
+::: {.callout-note}
+This work was under the supervision of Professor Roland van Oostveen, (https://eilab.ca/)
 :::
