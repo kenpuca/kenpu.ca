@@ -1,0 +1,17 @@
+---
+title: "Farees Siddiqui"
+---
+
+::: {style="text-align: center; font-size: 1.2em;"}
+[Resume <span style='color: red'>{{<fa file-pdf >}}</span>](./farees_siddiqui/resume.pdf)
+:::
+
+# Research Interests
+
+## Reinforcement Learning for Retrieval-Augmented Generation (RAG)
+
+We study reinforcement learning approaches for optimizing retrieval-augmented generation (RAG) systems, a critical but underexplored direction in improving LLM agent performance on knowledge-intensive tasks. We reformulate RAG optimization as a policy learning problem, where agents learn to improve retrieval relevance through reward modeling and query reformulation. Our work introduces reward signals for retrieval quality, applies policy optimization techniques to refine query generation, and develops agent-environment interaction frameworks for multi-step document reasoning. 
+
+## Document Understanding with Deep Neural Networks
+
+We also investigate document layout analysis and OCR pipelines for structured information extraction, enabling robust preprocessing of technical documents. Prior experiments on neural network similarity through embedding vector analysis demonstrated novel quantification methods for measuring semantic similarity across model architectures. Current work focuses on agentic AI systems for workflow automation and tool-use learning in LLM agents, with the goal of developing agents that can autonomously navigate complex document understanding tasks.

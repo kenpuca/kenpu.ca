@@ -13,6 +13,7 @@ During his M.Sc. studies, Zikun has been published in the following venues two p
 :::
 
 ::: {.member}
+![](static/images/logo.png)
 
 :::: {}
 **Farees Siddiqui**, M.Sc., Computer Science (2026-now) <br>
@@ -20,7 +21,7 @@ During his M.Sc. studies, Zikun has been published in the following venues two p
  
 Farees is working on his M.Sc. in Computer Science at Ontario Tech University. His research interests include database systems, applied machine learning, and data-driven workflows.
 
-[Farees's research profile](profiles/farees_siddiqui.qmd){.btn .btn-outline-primary}
+[Farees's research profile](profiles/farees_siddiqui.qmd){.btn .btn-primary}
 ::::
 :::
 

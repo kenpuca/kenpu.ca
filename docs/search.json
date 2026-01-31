@@ -173,5 +173,26 @@
     "title": "Zikun’s research",
     "section": "",
     "text": "We study the Database Entity Recognition (DB-ER): identifying database tables, columns, and values in natural-language queries (NLQs), a core but under-isolated subtask in text-to-SQL systems. We reformulate DB-ER as a closed-domain NER problem grounded in database schemas and SQL structure. We construct a benchmark derived from Spider and BIRD, introduce an automatic SQL-guided data augmentation method to scale training data, and propose a T5-based two-stage tagging model. Experiments show that synthetic supervision and encoder fine-tuning substantially improve precision and recall, and that the proposed approach outperforms strong NER baselines such as LUKE and Flair on DB-specific entity types.\nKey Contributions:\n\nDB-ER Benchmark from Text-to-SQL Data\nSQL-Guided Data Augmentation via Synthetic Annotation\nSpecialized T5-Based DB-ER Model\nEvaluation and Ablation Analysis Against Strong Baselines\n\n\n\n\nPublication at IRI 2025\n\n\n\n\n\nData Annotation UI"
+  },
+  {
+    "objectID": "profiles/farees_siddiqui.html",
+    "href": "profiles/farees_siddiqui.html",
+    "title": "Farees Siddiqui",
+    "section": "",
+    "text": "Resume"
+  },
+  {
+    "objectID": "profiles/farees_siddiqui.html#reinforcement-learning-for-retrieval-augmented-generation-rag",
+    "href": "profiles/farees_siddiqui.html#reinforcement-learning-for-retrieval-augmented-generation-rag",
+    "title": "Farees Siddiqui",
+    "section": "1.1 Reinforcement Learning for Retrieval-Augmented Generation (RAG)",
+    "text": "1.1 Reinforcement Learning for Retrieval-Augmented Generation (RAG)\nWe study reinforcement learning approaches for optimizing retrieval-augmented generation (RAG) systems, a critical but underexplored direction in improving LLM agent performance on knowledge-intensive tasks. We reformulate RAG optimization as a policy learning problem, where agents learn to improve retrieval relevance through reward modeling and query reformulation. Our work introduces reward signals for retrieval quality, applies policy optimization techniques to refine query generation, and develops agent-environment interaction frameworks for multi-step document reasoning."
+  },
+  {
+    "objectID": "profiles/farees_siddiqui.html#document-understanding-with-deep-neural-networks",
+    "href": "profiles/farees_siddiqui.html#document-understanding-with-deep-neural-networks",
+    "title": "Farees Siddiqui",
+    "section": "1.2 Document Understanding with Deep Neural Networks",
+    "text": "1.2 Document Understanding with Deep Neural Networks\nWe also investigate document layout analysis and OCR pipelines for structured information extraction, enabling robust preprocessing of technical documents. Prior experiments on neural network similarity through embedding vector analysis demonstrated novel quantification methods for measuring semantic similarity across model architectures. Current work focuses on agentic AI systems for workflow automation and tool-use learning in LLM agents, with the goal of developing agents that can autonomously navigate complex document understanding tasks."
   }
 ]
